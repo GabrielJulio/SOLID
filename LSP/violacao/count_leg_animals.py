@@ -9,11 +9,11 @@ class CountLegAnimals:
     def get_leg_count(self):
         for animal in self.animals:
             if isinstance(animal, Cat):
-                print(cat_leg_count(animal))
+                return cat_leg_count(animal)
             elif isinstance(animal, Cow):
-                print(duck_leg_count(animal))
+                return duck_leg_count(animal)
             elif isinstance(animal, Dog):
-                print(snake_leg_count(animal))
+                return snake_leg_count(animal)
 
 
 def cat_leg_count(cat: Cat):
