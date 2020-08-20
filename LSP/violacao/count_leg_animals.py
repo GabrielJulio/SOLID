@@ -1,9 +1,9 @@
-from cat import Cat
-from duck import Duck
-from snake import Snake
+from .cat import Cat
+from .duck import Duck
+from .snake import Snake
 
 class CountLegAnimals:
-    def init(self, animals: list):
+    def __init__(self, animals: list):
         self.animals = animals
 
     def get_leg_count(self):
@@ -17,10 +17,10 @@ class CountLegAnimals:
 
 
 def cat_leg_count(cat: Cat):
-    pass
+    return cat.get_legs()
 
 def duck_leg_count(duck: Duck):
-    pass
+    return duck.get_legs()
 
 def snake_leg_count(snake: Snake):
-    pass
+    return snake.get_legs()

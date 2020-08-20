@@ -9,7 +9,7 @@ class Animal:
     def get_specie(self) -> str:
         pass
 
-    def make_sound(self) - str:
+    def make_sound(self) -> str:
         if self.specie = 'cat'
             return 'meow'
         elif self.specie = 'cow':
